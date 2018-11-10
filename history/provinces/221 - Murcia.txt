@@ -2,17 +2,18 @@
 #Region - Iberia
 #Area - Toledo
 
-owner = MUR		# Juan II of Castille
-controller = MUR
-add_core = MUR
-culture = murcian
+owner = CAS		# Juan II of Castille
+controller = CAS
+add_core = CAS
+culture = andalucian
 religion = catholic 
 hre = no
-base_tax = 3 
-base_production = 3
-trade_goods = ir_fruit #fruit 
-base_manpower = 3
-capital = "Murcia" 
+base_tax = 6 
+base_production = 6
+trade_goods = grain 
+base_manpower = 6
+capital = "Cartagena" 
+estate = estate_burghers
 is_city = yes
 
 discovered_by = western

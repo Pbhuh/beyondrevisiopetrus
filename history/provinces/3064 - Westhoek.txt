@@ -1,7 +1,6 @@
 #3064 - Westhoek/West-Vlaanderen - Principal Cities: Ypres and Kortrijk (later Nieuwpoort)
 #Region - Low Countries
 #Area - Flanders
-#Will be updated soon in the next province batch when dunkirk is added.
 
 owner = FLA
 controller = FLA
@@ -11,10 +10,10 @@ capital = "Ypres"
 culture = flemish
 religion = catholic
 hre = no
-base_tax = 10
-base_production = 10
+base_tax = 12
+base_production = 12
 trade_goods = cloth
-base_manpower = 4 
+base_manpower = 6
 
 discovered_by = western
 discovered_by = muslim

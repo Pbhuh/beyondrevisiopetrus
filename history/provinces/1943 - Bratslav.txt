@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - Podolia Volhynia
 
-owner = PDL
-controller = PDL
+owner = KIE
+controller = KIE
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -16,7 +16,7 @@ is_city = yes
 estate = estate_nobles
 fort_15th = yes #Bratslav Castle
 add_local_autonomy = 25
-add_core = PDL
+add_core = KIE
 
 discovered_by = western
 discovered_by = eastern

@@ -2,27 +2,27 @@
 #Region - Iberia
 #Area - Balearic Islands
 
-owner = MLA		# Alfons V of Aragon
-controller = MLA
+owner = ARA		# Alfons V of Aragon
+controller = ARA
+add_core = ARA
 add_core = MLA
 culture = catalan
 religion = catholic
 hre = no
 base_tax = 8
 base_production = 8
-trade_goods = ir_fruit
+trade_goods = fish
 base_manpower = 4 
 capital = "Palma" 
 is_city = yes
+
+extra_cost = 8
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-extra_cost = 8
-
-center_of_trade = 1
 
 
 1462.1.1 = { unrest = 2 } # Remença peasant revolt, in parallel with the Catalan civil war.

@@ -2,16 +2,16 @@
 #Region - Iberia
 #Area - Lower Andalucia
 
-owner = SEV		#Enrique III of Castille
-controller = SEV
-add_core = SEV
+owner = CAS		#Enrique III of Castille
+controller = CAS
+add_core = CAS
 culture = andalucian
 religion = catholic
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 6
+base_production = 6
 trade_goods = naval_supplies
-base_manpower = 4
+base_manpower = 6
 capital = "Cadiz" 
 estate = estate_nobles
 is_city = yes

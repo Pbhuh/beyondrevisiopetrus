@@ -2,19 +2,21 @@
 #Region - France
 #Area - Loire
 
-owner = ORL
-controller = ORL
+owner = FRA
+controller = FRA
 capital = "Orléans"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
+estate = estate_nobles
 hre = no
-base_tax = 12
-base_production = 12
+base_tax = 14
+base_production = 14
 trade_goods = grain
 base_manpower = 10
+add_local_autonomy = 10
 add_core = ORL
-#add_core = FRA
+add_core = FRA
 fort_15th = yes
 
 extra_cost = 8
@@ -30,8 +32,6 @@ discovered_by = eastern
 1562.3.20 = { revolt = { type = heretic_rebels size = 2 } controller = REB } # Huguenot rebels garrison Orléans & Dreux
 1563.3.19 = { revolt = {} controller = FRA unrest = 3 } # Temporary truce negotiated after the assassination of de Guise
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear
-1566.2.1 = { owner = FRA controller = FRA add_core = FRA } #Inherit Date IR AMYZONIS
-
 1568.9.1 = { unrest = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
 1570.8.8 = { unrest = 10 } # Edict of Saint-Germain: temporary pacification
 1573.9.1 = { unrest = 15 } # Saint Barthelew's Day Massacre: the consequences in the land

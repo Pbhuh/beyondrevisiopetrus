@@ -8,11 +8,11 @@ add_core = NAV
 culture = basque
 religion = catholic
 hre = no
-base_tax = 6
-base_production = 6
-trade_goods = ir_whales
+base_tax = 8
+base_production = 8
+trade_goods = iron
 base_manpower = 4  
-fort_16th = yes #Fortifications of Pamplona and Saint-Jean-Pied-de-Port
+#fort_15th = yes #Fortifications of Pamplona and Saint-Jean-Pied-de-Port
 capital = "Pamplona" 
 is_city = yes
 

@@ -63,4 +63,4 @@ discovered_by = eastern
 	owner = NED
 	controller = NED
 	remove_core = FRA
-} # William returns to the Netherlands
+} # The United Kingdom of the Netherlands

@@ -2,16 +2,17 @@
 #Region - Iberia
 #Area - Valencia
 
-owner = VAL	#Alfons V of Aragon
-controller = VAL
+owner = ARA	#Alfons V of Aragon
+controller = ARA
+add_core = ARA
 add_core = VAL
 culture = catalan
 religion = catholic
 hre = no
-base_tax = 12
-base_production = 12
+base_tax = 14
+base_production = 14
 trade_goods = cloth
-base_manpower = 6
+base_manpower = 9
 fort_15th = yes
 capital = "València" 
 is_city = yes
@@ -22,8 +23,10 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-extra_cost = 16
+extra_cost = 15
+
 center_of_trade = 2
+
 
 1516.1.23 = {
 	controller = SPA

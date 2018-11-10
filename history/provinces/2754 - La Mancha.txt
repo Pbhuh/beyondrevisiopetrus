@@ -2,16 +2,16 @@
 #Region - Iberia
 #Area - Toledo
 
-owner = TLD		#Juan II of Castille
-controller = TLD
-add_core = TLD
-culture = toledan
+owner = CAS		#Juan II of Castille
+controller = CAS
+add_core = CAS
+culture = castillian
 religion = catholic
 hre = no
-base_tax = 5 
-base_production = 5 
-trade_goods = cloth
-base_manpower = 3 
+base_tax = 4 
+base_production = 4 
+trade_goods = gold #Almadén
+base_manpower = 2 
 capital = "Ciudad Real" 
 is_city = yes
 

@@ -8,11 +8,11 @@ add_core = ARA
 culture = aragonese
 religion = catholic
 hre = no
-base_tax = 3  
-base_production = 3 
+base_tax = 4  
+base_production = 4 
 trade_goods = wool
-base_manpower = 3
-capital = "Jaca" 
+base_manpower = 2 
+capital = "Huesca" 
 is_city = yes
 
 discovered_by = western
@@ -21,7 +21,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-fort_15th = yes #Castiello de Lobarre
+#fort_15th = yes #Castiello de Lobarre
 
 1516.1.23 = {	controller = SPA
 	owner = SPA
