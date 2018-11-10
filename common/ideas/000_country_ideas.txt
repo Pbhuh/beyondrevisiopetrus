@@ -1,0 +1,193 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+### Nation specific idea groups
+
+# These ideas are loaded after all country ideas, but before default idea.
+
+HOL_ideas = {
+	start = {
+		light_ship_power = 0.1
+		global_tax_modifier = 0.1
+	}
+
+	bonus = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = HOL
+	}
+	free = yes		#will be added at load.
+	
+	hanseatic_city = {
+		global_trade_power = 0.15
+	}		
+	hamburg_republic = {
+		republican_tradition = 0.5
+	}
+	walls_of_hamburg = {
+		defensiveness = 0.25
+	}
+	first_constitution = {
+		global_unrest = -1
+	}
+	johanneum = {
+		idea_cost = -0.1
+	}
+	berenberg_bank = {
+		interest = -0.5
+		production_efficiency = 0.1
+	}
+	elbe_shipyards = {
+		global_ship_cost = -0.10
+	}
+}
+
+FRA_ideas = {
+	start = {
+		republican_tradition = 0.5
+		spy_offence = -1
+	}
+	
+	bonus = {
+		build_cost = -0.25
+	}
+	
+	trigger = {
+		tag = FRA
+	}
+	free = yes		#will be added at load.
+	
+	german_free_city_1 = {
+		development_cost = -0.2
+		global_tax_modifier = 0.10
+	}
+	german_free_city_6 = {	
+		land_forcelimit_modifier = 0.30
+	}
+	german_free_city_3 = {
+		production_efficiency = 0.1
+	}
+	german_free_city_4 = {
+		trade_efficiency = 0.25
+	}	
+	german_free_city_5 = {
+		merc_maintenance_modifier = -0.30
+	}
+	german_free_city_2 = {
+		defensiveness = 0.3
+	}	
+	german_free_city_7 = {
+		stability_cost_modifier = -0.1
+	}
+}
+
+#free_city_ideas = {
+#	start = {
+#		#
+#		all_power_cost = -0.1
+#		diplomatic_reputation = 1
+#	}
+#	
+#	bonus = {
+#		free_adm_policy = 1
+#	}
+#	
+#}
+
+
+
+
+frisian_ideas = {
+	start = {
+
+		production_efficiency = 0.1
+		development_cost = -0.1
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = FRI
+			tag = GRN
+			tag = EFR
+			primary_culture = frisian
+		}
+	}
+	free = yes
+	
+	fri_coastal_industry = {
+		global_ship_trade_power = 0.1
+	}
+	fri_upstalsboom_league = {
+		state_maintenance_modifier = -0.25
+	}
+	fri_dutch_courage = {
+		land_morale = 0.1
+	}
+	fri_zuiderzee_settlements = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	fri_flooding_polders = {
+		defensiveness = 0.15
+	}
+	fri_mennonism = {
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+	fri_brothers_arms = {
+		num_accepted_cultures = 1
+		global_own_trade_power = 0.1
+	}
+}
+
+NED_ideas = {
+	start = {
+		global_sailors_modifier = 0.25
+		naval_forcelimit_modifier = 0.50
+	}
+	
+	bonus = {
+		trade_efficiency = 0.15
+	}
+
+	trigger = {
+		OR = {
+			tag = NED
+			tag = HOL
+			tag = ZEE
+			tag = LBG
+		}
+	}
+	free = yes		#will be added at load.
+	
+	amsterdam_wisselbank = {
+		inflation_reduction = 0.1
+	}
+	dutch_trading_spirit = {
+		merchants = 1
+		trade_range_modifier = 0.10
+	}
+	polders = {
+		development_cost = -0.1
+	}
+	instructie_voor_de_admiraliteiten = {
+		leader_naval_fire = 2
+		sailor_maintenance_modifer = -0.1
+	}
+	embrace_humanism = {
+		tolerance_heretic = 3
+	}
+	army_sappers = {
+		siege_ability = 0.10
+	}
+	platoon_fire = {
+		fire_damage = 0.1
+	}
+}
+

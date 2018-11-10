@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Liege
 
-owner = BRB
-controller = BRB
-add_core = BRB
+owner = LBG
+controller = LBG
+add_core = LBG
 add_core = LIE
 is_city = yes
 capital = "Maastricht"
