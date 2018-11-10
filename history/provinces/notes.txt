@@ -1,0 +1,24 @@
+#list of provinces unchanged and just copied over from BT10 again.
+#coming soon
+Brugge
+Gent
+Rijssel
+Brabant
+EastFrisia
+
+
+#list of culture changed only compared to BT10
+Most of westgermany and loon
+for purpose of meuse-rhenish and central_frankish
+
+#tradegood changed compared to BT10
+Amsterdam
+Kleves
+_will probs remember more
+
+#reworked/repurposed
+Auxerrois
+Westhoek will change into dunkirk
+
+#fixes
+Orleanais
