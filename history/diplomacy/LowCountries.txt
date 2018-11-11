@@ -1,0 +1,32 @@
+# Liege & Bouillon
+vassal = {
+	first = LIE
+	second = BOI
+	start_date = 1444.1.1
+	end_date = 1510.1.13			#need to research enddate for vassalization of bouillon
+}
+
+# Burgundy and Utrecht
+vassal = {
+	first = BUR 
+	second = UTR
+	start_date = 1456.1.1
+	end_date = 1477.1.5			#More research needed in liegian and utrecht succesion war
+}
+
+# Burgundy and Liege
+vassal = {
+	first = BUR
+	second = LIE
+	start_date = 1456.1.1
+	end_date = 1477.1.5			#More research needed in liegian and utrecht succesion war
+}
+
+# Anti-Swedish alliance
+#alliance = {
+
+# Ivan III and Maria of Tver
+#royal_marriage = {
+	
+# Peter III of Russia, Holstein-Gottorp
+#union = {
