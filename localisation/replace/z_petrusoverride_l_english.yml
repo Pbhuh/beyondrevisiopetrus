@@ -4,11 +4,8 @@
  #Localisation Changes for IR & BT: Revisio Petrus
  
  ##currently dutch localisation english down below
- PROV90:0 "Vlaanderen"
- PROV92:0 "Brabant" #changed from brussels
  PROV99:0 "Arnhem" #City is more prestigious than the nature/area of Veluwe
  PROV1742:0 "Limburg"
- PROV3063:0 "Upper-Gelre" #or Geldren or Upper- prefix
  PROV4383:0 "Den Haag"
  PROV4392:0 "Auxerrois"
  PROV_ADJ90:0 "Vlaamse"
@@ -16,18 +13,10 @@
  PROV_ADJ99:0 "Arnhemse"
  PROV_ADJ1742:0 "Limburgse"
  PROV_ADJ4383:0 "Haagse"
- PROV_ADJ3063:0 "Gelderse"
  PROV_ADJ4392:0 "Auxerreian"
  netherlands_area:0 "Holland"
  netherlands_area_name:0 "Holland"
- netherlands_area_adj:0 "Hollandse" 
- luxemburg_liege_area: "Luxemburg"
- luxemburg_liege_area_name: "Luxemburg"
- luxemburg_liege_area_adj: "Luxemburgse"
- PROV3030:0 "Vianden" #later on bitburg
- PROV_ADJ3030:0 "Viandish"
- PROV3074:0 "Neuss"
- PROV_ADJ3074:0 "Neusser"
+ netherlands_area_adj:0 "Hollandse"
  ##only english:
  guelders_area:0 "Dutch Low Saxony"
  guelders_area_name:0 "Dutch Low Saxony"
@@ -38,11 +27,7 @@
  
  #RENAMES IMP-P
  PROV75:0 "Lower Elsass"
- PROV_ADJ75:0 "Lower Elsassian"
- PROV10408:0 "Vermandois"
- PROV_ADJ10408:0 "Vermandian"
- PROV10408:0 "Vermandois"
- PROV_ADJ10408:0 "Vermandian"
+ PROV_ADJ75:0 "Lower Elsasser"
  guyenne_area:0 "Aquitaine"
  guyenne_area_name:0 "Aquitaine"
  guyenne_area_adj:0 "Aquitainian"

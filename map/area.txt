@@ -4535,25 +4535,18 @@ true_north_atlantic_sea_area = {
 
 #Areas all over the world changed by I:R
 
+#Random European Changes
+
 wallachia_area = { 161 2998 3160 4531 10419 10420 10422 } #10421 4532 160  #muntenia
 bessarabia_area = { 2405 3159 1756 7277 7278 }
 oltenia_area = { 160 4532 10421 } #new for west wallachia
-gotland_isle_area = { 25 3121 10442 } #new for gotland
+gotland_isle_area = { 25 3121 10536 } #new for gotland
 lausitz_area { 60 1763 }
-moldavia_area = { #3
-	#2405 3159 1756 7277 7278 
-	268 3157 4529 4530 7276 
-}
+moldavia_area = { 268 3157 4529 4530 7276 } #switched with westernmoldova and removed that one #2405 3159 1756 7277 7278 
 western_moldovia = { } #removed
 transylvania_area = { 158 4127 3154 4128 1951 }
 southern_transylvania_area = { 157 3152 } #now western
 banat_area = { 156  1954 }
-lower_volta_area = { 
-    1138 2254 2255 2256 2267 10102 10110 10113 10114 2257
-}
-west_africa_coast_area = { #Guinea
-1126 1139 1141 2257 2258 10100 10101 10103 10104 10105 10106 10107 10108 10109 10111 10112
-} #needs to be split later on
 
 #HRE
 ##########
@@ -4561,7 +4554,7 @@ west_africa_coast_area = { #Guinea
 #Lowlands
 
 wallonia_area = { 91 1743 1866 10514 10521 } #currently Hainaut
-flanders_area = { 90 1865 3064 3065 10507 10513	10527 }
+flanders_area = { 90 1865 3064 10507 10513 }
 brabant_area = { 92 95 1744 3061 }
 netherlands_area = { 
 	color = { 244 139 0 }
@@ -4575,6 +4568,7 @@ frisia_area = {
 luxembourg_area = { 94 3066 10500 10501 }
 guelders_area = { 99 3058 4381 3060 10506 }
 luxemburg_liege_area = { 93 10504 10512 10528 } #Liege now
+artesia_area = { 87 88 3065 10524 10527 } #artois and french flanders
 
 #North Germany
 muenster_area = { 56 86 2973 10509 }
@@ -4608,7 +4602,7 @@ bourgogne_area = {
 	color = { 144 0 32 }
 	191 192 1877 4392  10526 }
 franche_comte_area = { 193 3092 10540 }
-picardy_area = { 87 88 89 10508 10511 10515 10524 }
+picardy_area = { 89 10508 10511 10515 }
 ile_de_france_area = { 182 183 4388 10503 10537 }
 loire_area = { #4
 	color = { 231 143 5 }
@@ -4619,362 +4613,6 @@ languedoc_area = { 200 2753 3085 4391 10546 }
 provence_area = { 201 202 2991 3090 10541 10542 }
 poitou_area = {	180 3077 4386 4111 10545 }
 normandy_area = { 167 168 1879 3073 4385 3110 10547 }
-
-#vietnam
-vietnam_area = { 610 1016 2373 6995 6996 6997 }
-red_river_delta_area = { 613 616 2372 6984 6985 6986 6987 6990 6992 } #6991 6988 Amyz Removed 
-north_laos_area = { 615 1844 2371 2381 6993 6989 6994 }
-
-########################################
-# Swiss						 		   #
-########################################
-
-switzerland_area = { 166 10085 10087 10083 }
-zurich_area = { 1869 10088 1870 10091 }
-grl_area = { 1873 10086 10089 3294 3054 }
-romandie_area = { 3056 10081 1867 1871 10084 10090 }
-basel_area = { 3055 10082 165 }
-
-########################################
-# Iberia					 		   #
-########################################
-
-aragon_area = { 214 10059 10060 3095 }
-catalonia_area = { 197 212 10072 213 }
-valencia_area = { 1750 10066 10067 220 }
-pyrennes_area = { 10056 10055 211 10058 10057 }
-urgell_area = { 10054 10068 2987 10073 10070 }
-teruel_area = { 2990 10061 10062 }
-tarragona_area = { 	2988 10071 10069 }
-castellon_area = { 	10064 3094 10065 }
-sevilla_area = { 224 10007 3098 10011 10006 }
-cadiz_area = { 	1749 10005 226 }
-cordoba_area = { 225 10008 10009 10010 1748 }
-cuenca_area = { 10037 2751 3096 }
-malaga_area = { 3097 10000 10001 }
-granada_area = { 222 223 10002 10003 10004 }
-castille_area = { #3
-	color = { 58 58 207 }
-	215 3298 3299 10022 10021
-}
-burgos_area = { 1746 10024 10025 10026 }
-rioja_area = { 2755 2989 10027 }
-zamora_area = { 3101 10019 216 10016 10017 }
-toledo_area = { 219 10042 10040 2754 }
-madrid_area = { 217 10041 3300 10036 }
-asturias_area = { 207 1745 10023 10038 10039 }
-basque_area = { 210 10030 10032 10033 }
-vizcaya_area = { 209 10028 10029 }
-leon_area = { #4
-	color = { 243 235 28 }
-	208 10014 10015 10020
-}
-balearic_islands_area = { 333 5098 5095 }
-extremadura_area = { 218 1747 3099 3100 10043 10044 }
-spanish_galicia_area = { 206 3102 3103 10031 10034 10035 }
-murcia_area = { 221 10012 10013 10018 }
-porto_area = { 231 232 10049 10050 3104 }
-beieras_area = { 228 1851 10045 10046 }
-tagus_area = { 227 3106 10047 3105 10048 }
-guadiana_area = { 4150 229 230 10053 10063 }
-sado_area = { 3108 10051 10052 }
-canaries_area = { 366 5096 10074 10075 10076 10077 }
-macaronesia_area = { 367 368 10078 10079 10080 }
-algarve_area = { 230 10051 } #Amyz removed Huelva. Algarve can be a 2 province area
-
-########################################
-# North America    	                   #
-########################################
-
-#BTARG Southeast
-
-#altered vanilla
-west_florida_area = { 921 922 2530 7419 7427 }
-choctaw_area = { 920 7466 7414 7417 7421 }
-piedmont_north_america_area = { 2549 7457 }
-great_valley_area = { 949 2011 2552 2553 }
-ozarks_area = { 899 2509 7488 }
-kentucky_area = { 940 941 2526 }
-upper_louisiana_area = { 900 902 2513 905 }
-lower_plains_area = { 890 891 7502 7503}
-llano_estacado_area = { 885 2497 7504 882 2496 5844 }
-texas_area = { 887 7498 7499 7512 7516 }
-coastal_prarie_area = {	884 888 7493 7510 7515 }
-rio_grande_area = { 7497 7507 7508 7509 2499 }
-south_appalachia_area = { 7408 7464 7465 7453 }
-south_carolina_area = { 7449 7450 7451 7452 7460 2545 }
-carolinas_area = { 933 2541 7454 7463 7462 7461 }
-american_georgia_area = { 2538 7405 7446 }
-upper_american_georgia_area = { 2540 7406 7436 7437 }
-florida_area = { 7412 7413 7438 7441 }
-north_florida_area = { 928 2534 7411 }
-mississippi_area = { 2528 7467 7416 7443 }
-alabama_area = { 924 7400 7422 7424 }
-lower_louisiana_area = { 893 7402 7404 7429 7430 }
-
-#new
-pine_belt_area = { 2529 2532 7469 7418 7420 }
-chickasaw_area = { 919 7468 7471 7415 }
-#mississippi_delta_area = { } #merged back into mississippi_area
-#alabama_river_area = { } #merged back into alabama_area
-black_warrior_river_area = { 2531 7470 7472 }
-nickajack_area = { 931 7423 7431 }
-wiregrass_area = { 2537 7401 7433 7434 7435 }
-#georgia_fall_line_area = {  } #merged back into upper_american_georgia_area
-#southeast_georgia_area = {  } #merged back into american_georgia_area
-upper_chattahoochee_area = { 925 930 7407 7432 }
-everglades_area = { 2536 7409 7439 }
-#big_bend_area = { } #merged back into north_florida_area
-suncoast_area = { 2535 7410 7444 }
-#florida_uplands_area = { } #merged back into florida_area
-atlantic_florida_area = { 926 927 7440 }
-florida_panhandle_area = { 923 2533 7442 }
-#acadiana_area = { } #merged back into lower_louisiana_area
-#red_river_valley_area = { } #cut
-northeast_louisiana_area = { 7428 7403 7425 7426 2515 7486 }
-georgia_sea_islands_area = { 929 932 2539 2542 7445 7447 }
-#carolina_piedmont_area = {  } #merged back into carolinas_area
-#carolina_sandhills_area = {  } #merged back into south_carolina_area
-grand_strand_area = { 7448 2543 2546 }
-#southern_blue_ridge_area = { } #merged back into south_appalachian_area
-brushies_area = { 2544 936 }
-inner_banks_area = { 7455 7456 938 2547 7473 }
-tar_neuse_area = { 937 7458 7459 } #This needs work.
-western_tennessee_area = { 7481 7479 918 939 }
-middle_tennessee_area = { 7478 7480 }
-eastern_tennessee_area = { 7474 7475 7476 7477 935 }
-cumberland_plateau_area = { 2527 934 }
-arkansas_plains_area = { 895 7485 7487 2514 }
-ouachitas_area = { 7482 896 892 }
-lower_arkansas_river_area = {  896 897 7483 7484 }
-piney_woods_area = {  2014 7489 894 7490 7495 7494 2669 7496 }
-big_thicket_area = { 7491 7492 7513 2516 2665 7517 }
-cross_timbers_area = { 7514 7501 7500 886 7511 }
-edwards_plateau_area = { 2500 883 2666 }
-trans_pecos_area = { 2498 7505 7506 7518 }
-
-#BTARG Mexico
-
-#altered vanilla
-northeast_mexico_area = { 858 861 2614 2619 7522 }
-
-#new
-rio_grande_sur_area = { 2668 2667 7519 7520 7521 }
-
-##########
-# Start of mess that is china
-
-####################
-# China            #
-####################
-
-guangzhou_area = { 667 668 6660 } #Guangzhou Fu
-guangdong_area = { 	665 6663 6664 6914 } #Guang-Zhao-Luo Circuit
-west_guangdong_area = { 2159 6665 6903 } #Gao-Lei-Yang Circuit
-north_guangdong_area = { 2158 6661 6662 } #Nan-Shao-Lian Circuit
-east_guangdong_area = { 2156 2157 6904 } #Nan-Shao-Lian Circuit
-farwest_guangdong_area = { 2161 6668 } #Nan-Shao-Lian Circuit
-hainan_area = { 666 2160 6666 6667 } #Qiong-Yai Circuit
-guangxi_area = { 1840 6669 6910 6911 6912 } #Gui-Ping-Wu-Yu Circuit
-southeast_guangxi_area = { 2162 6905 } #Gui-Ping-Wu-Yu Circuit
-central_guangxi_area = { 2163 6671 6672 6906 6907 6909 } #Youjiang Circuit
-south_guangxi_area = { 664 2164 6670 6673 6908 6913 } #Zuojiang Circuit
-fujian_area = { 669 6678 } #Fuzhou Circuit
-north_fujian_area = { 2152 6676 6677 } #Yan-Jian-Shao Circuit
-south_fujian_area = { 1829 6675 6916 6917 } #Xing-Quan-Yong Circuit
-west_fujian_area = { 2153 6674 6915 } #Ting-Zhang-Long Circuit
-jiangxi_area = { 683 6680 6681 } #Nan-Jiang-Fu Circuit
-west_jiangxi_area = { 6682 6683 6684 6688 } #Yuan-Rui-Lin Circuit
-east_jiangxi_area = { 2151 6685 6686 6687 } #Po-Guang-Jiu-Nan Circuit
-south_jiangxi_area = { 670 1833 6679 6918 } #Ji-Gan-Nan-Ning Circuit
-huguang_area = { 682 6700 } #Wuchang Circuit
-hunan_area = { 672 6698 6699 } #Yue-Chang-Li Circuit
-central_hunan_area = { 671 6693 6692 } #Chang-Bao Circuit
-southeast_hunan_area = { 2174 6691 6689 6690 } #Heng-Yong-Chen-Gui Circuit
-southwest_hunan_area = { 2173 6694 6695 6696 6697 } #Chen-Yuan-Yong-Jing Circuit
-east_hubei_area = { 4197 6701 6702 6703 6711 } #Han-Huang-De Circuit
-northwest_hubei_area = { 2171 6704 6705 6706 6709 6710 } #An-Xiang-Yun-Jing Circuit
-southwest_hubei_area = { 681 2172 6707 6708 } #Jing-Yi-Shi Hubei Circuit
-zhejiang_area = { 684 6716 6717 6718 } #Hang-Jia-Hu Circuit
-east_zhejiang_area = { 2148 2149 6712 6719 } #Ning-Shao-Tai Circuit
-west_zhejiang_area = { 2150 6714 6715 } #Jin-Qu-Yan Circuit
-south_zhejiang_area = { 1824 6713 } #Wen-Chu Circuit
-anhui_area = { 	686 1838 6721 6722 6723 6725 } #An-Lu-Chu-He Circuit
-south_anhui_area = { 2146 2147 6720 6724 6726 } #Hui-Ning-Chi-Guang-Tai Circuit
-north_anhui_area = { 2143 2144 6734 6735 6736 6737 }
-jiangsu_area = { 685 2142 4196 6731 6732 }
-north_jiangsu_area = { 2141 6733 }
-south_jiangsu_area = { 1821 2145 6727 6730 }
-southeast_jiangsu_area = { 1822 6728 6729 }
-north_henan_area = { 692 6746 6750 6919 }
-henan_area = { 688 6740 6747 6748 6749 } #3 (South Henan)
-east_henan_area = { 2176 6741 }
-south_henan_area = { 687 2175 6738 6739 6742 6743 }
-west_henan_area = { 1836 6744 6745 }
-shandong_area = { 690 6755 } # Deng-Lai-Qing-Jiao
-east_shandong_area = { 2139 6751 6752 6753 6754 } # Deng-Lai-Qing-Jiao	
-north_shandong_area = { 691 2138 6756 6757 6759 }
-west_shandong_area = { 6758 6760 6761 6762 }
-south_shandong_area = { 2140 6763 6764 6765 6766 }
-hebei_area = { 1816 6779 6780 6781 } #4 (North Hebei)
-north_hebei_area = { 6782 6783 6784 4194 }
-south_hebei_area = { 2137 6767 6768 6769 }
-central_hebei_area = { 696 6773 6777 6778 }
-west_hebei_area = { 4195 6770 6771 6772 6774 }
-east_hebei_area = { 695 6775 6776 }
-northeast_hebei_area = { 703 2115 4203 6933 }
-northwest_hebei_area = { 2136 6785 6786 }
-shanxi_area = { 693 6792 6793 6795 6796 6802 }
-east_shanxi_area = { 2178 6794 6803 6804 6805 }
-southwest_shanxi_area = { 694 6797 6798 6799 6800 6801 }
-north_shanxi_area = { 697 6787 6788 6789 6790 }
-northeast_shanxi_area = { 2177 6791 }
-shaanxi_area = { 700 6809 6811 6815 }
-east_shaanxi_area = { 6812 6813 6814 }
-west_shaanxi_area = { 4198 6810 6816 }
-south_shaanxi_area = { 689 6817 6818 }
-north_shaanxi_area = { 2179 6806 6807 6808 }
-gansu_area = { 2180 2183 6819 6825 6826 6828 }
-west_gansu_area = { 707 708 6935 6936 }
-east_gansu_area = { 2181 6820 6821 6822 6823 6824 }
-northwest_gansu_area = { 6834 6835 6836 6837 }
-north_gansu_area = { 2182 6832 6833 }
-central_gansu_area = { 699 6829 6830 6831 2184 }
-northeast_gansu_area = { 698 6827 }
-sichuan_area = { 679 6845 6846 6847 6849 } #removed 6848
-north_sichuan_area = { 2170 2169 6850 6851 }
-chuannan_area = { 2168 4213 6858 6864 }
-south_chuannan_area = { 675 6865 6866 6867 }
-chuanbei_area = { 6838 6839 6840 6841 }
-souh_chuanbei_area = { 6842 6843 6844 }
-chuandong_area = { 4211 6859 6860 6861 6862 }
-chongqing_area = { 680 6863 }
-jianchang_area = { 4212 6852 6853 6854 6855 6856 }
-south_jianchang_area = { 2748 6857 }
-guizhou_area = { 674 6869 6871 6872 }
-west_guizhou_area = { 6878 6879 6880 6881 }
-east_guizhou_area = { 673 4199 6868 6870 }
-southeast_guizhou_area = { 6873 6874 6875 6876 6877 }
-south_guizhou_area = { 6882 6883 6884 }
-yun_gui_area = { 662 6887 } #5 (Yun-Gui Hinterland)
-east_yunnan_area = { 6886 6885 6888 }
-southeast_yunnan_area = { 663 6889 6890 6891 }
-south_yunnan_area = { 660 2165 6892 6893 }
-yun_gui_borderland_area = { 661 2167 6896 6900 6901 6902 }
-southwest_yunnan_area = { 2166 6894 6895 6897 6898 6899 }
-taiwan_area = { 738 2154 2155 6920 6921 }
-liaoxi_area = { 704 6923 6925 6926 6934 }
-liaodong_area = { 	2113 6922 6924 6931 6929 } #5 #Liaohai Dongning Circuit
-andong_area = { 2111 2112 6932 }
-liaoning_area = { 726 6927 6928 6930 }
-heilongjiang_area = { 724 725 4218 } #3 (West Heilongjiang)
-east_heilongjiang_area = { 1049 1053 2102 2104 }
-central_heilongjiang_area = { 727 728 2185 4200 }
-ilan_hala_area = { 1048 1050 4214 4216 } #5 (North Jilin Area)
-central_jilin_area = { 729 731 2105 4215 4217 }
-ningguta_area = { 1850 2106 2107 2108 2186 }
-jilin_area = { 730 2110 2188 4201 } #4 (South Jilin Area)
-ordos_area = { 701 709 2191 4223 } #4 (Western Inner Mongolia)
-eastern_mongolia = { 722 2109 2187 4202 }
-inner_mongolia_area = { 702 723 2114 2747 }
-outer_mongolia_area = { 717 721 2116 4219 4220 }
-altai_sayan_area = { 
-	color = { 203 84 84 }
-	718 2117 4222 }
-tannu_uriankhai_area = { 716 1065 1066 }
-central_mongolia_area = { 720 2193 4221 }
-uliastai_area = { 719 2189 2190 }
-jetysuu_area = { #5
-	color = { 56 37 169 }
-	459 461 2125 2126 2368 }
-kashgaria_area = { 739 2124 2127 4209 4210 } #5 #Just Kashgar & Yarkand
-tarim_basin_area = { 712 2121 2192 } #3 #The rest of the Seven Cities
-shanshan_area = { 710 711 2123 }
-turpan_kumul_area = { 2122 4206 4207 }
-zungaria_area = { 
-	color = { 65 220 28 }
-	713 715 2120 4208 }
-amdo_area = { 705 706 2134 4204 6937 6938 }
-tsang_area = { 677 2130 4205 4517 4519 }
-north_zungaria = { 714 2118 2119 }
-kham_area = { 678 2131 2132 2133 2135 }
-utsang_area = { 676 4514 4515 4518 }
-
-########################################
-# Korea			                       #
-########################################
-
-pyongan_area = { 1845 2744 4232 7375 7376 7377 }
-hamgyeong_area = { 732 2742 2743 7371 7372 7373 7374 }
-western_korea_area = { 735 4230 7386 7387 7388 7389 } #4 (Gyeonggi)
-eastern_korea_area = { 734 2694 7378 7379 7380 7381 } #5 (Gangwon)
-south_korea_area = { 737 2741 4228 7392 7393 7394 } #4 (Jeolla)
-left_chungcheong_area = { 1013 4229 7390 7391 }
-left_gyeongsang_area = { 736 2745 4227 7395 7396 7397 }
-left_hwanghae_area = { 733 4231 7382 7383 7384 7385 }
-
-####################
-# Nippon           #
-####################
-
-hokkaido_area = { 1031 1847 4193 7359 }
-hokuriku_area = { 1023 7319 7320 7321 }
-kanto_area = { #3 #Western Kanto
-	1843 4191 7335 7336 7337 }
-eastern_kanto_area = { 4190 7338 7339 }
-kyushu_area = { #4 #Southern Kyushu
-	1012 7280 7281 }
-northern_kyushu = {	#Chikushu
-	1818 7287 7291 }
-shikoku_area = { 1820 7299 7300 }
-eastern_chubu_area = { 1839 7332 4189 5028 1029 }
-chubu_area = { #3 (Western Chubu)
-	color = { 219 83 61 }
-	1030 7325 }
-kinai_area = { color = { 208 206 65 } 1020 1832 7312 }
-thohoku_area = { 4131 7351 }
-sanindo_area = { 1018 1830 4183 7304 7308 }
-saigoku_area = { #4 #Suo-Nagato  
-1017 7301 }
-
-##########
-
-hyuga_area = { 4180 7282 7283 }
-hizen_area = { 4182 7288 7289 7290 7296 }
-hoshu_area = { 1014 7292 7293 }
-higo_area = { 4181 7284 7285 7286 }
-tosa_area = { 1819 7297 }
-iyo_area = { 4186 7298 }
-aki_area = { 1825 7302 }
-kibi_area = { 4184 7303 7305 7306 }
-harima_area = { 1019 7307 }
-tanshu_area = { 4185 7309 }
-oshikochi_area = { 1021 7310 }
-kii_area = { 4187 7313 }
-omi_area = { 7314 7315 }
-ise_area = { 4359 7318 }
-mino_area = { 1835 7323 7324 }
-shinano_area = { 4188 7328 7329 7330 7331 }
-mikawa_toromi_area = { 4360 7326 7327 }
-etchu_area = { 1837 7322 }
-echigo_area = { 1024 7341 7342 7343 }
-musashi_area = { 1028 7333 7334 }
-hitachi_area = { 1027 7340 }
-bangan_area = { 7344 7345 7347 7348 }
-ugo_area = { 4192 7354 7355 7356 }
-uzen_area = { 1025 7357 7358 }
-rikuzen_area = { 1026 7346 7349 }
-rikuchu_area = { 7350 7352 7353 }
-east_hokkaido_area = { 1852 7363 7364 7365 }
-central_hokkaido_area = { 7360 7361 7362 }
-kuril_islands_area = { 1032 7366 }
-sakhalin_area = { 1033 7367 }
-ryukyu_area = { 1015 7368 7369 }
-
-
-####################
-#Broken areas need fixign later
-kalisz_area = { }
 
 ########################################
 #####Beyond the Pale Legacy Version#####
@@ -5162,6 +4800,8 @@ unused_area = {
 	#7355 7356 7357 7358 7359 7360 7361 7362 7363 7364 7365 7366 7367 7368 7369 7370 7371 7372 7373 7374 7375 7376 7377 7378 7379 
 	#7380 7381 7382 7383 7384 7385 7386 7387 7388 7389 7390 7391 7392 7393 7394 7395 7396 7397 
 	
+	3011 3013 3017
+	
 	#BtP and BT provinces removed in 1.25 due to being replaced with new Paradox provinces.
 	3004 3007 3010 3012 3016 3018 3020 3021 3022 3023 3024 3025 3026 3027 3029 3030 3031 3033 3035 3057 3059 3062 3067 3072 3074 
 	3076 3078 3080 3086 3091 3093 3023 5099
@@ -5297,9 +4937,10 @@ unused_area = {
 	10323 10324 10325 10326 10327 10328 10329 10330 10331 10332 10333 10334 10335 10336 10337 10338 10339 10340 10341 10342 10343 10344 10345 10346 10347 10348 
 	10349 10350 10351 10352 10353 10354 10355 10356 10357 10358 10359 10360 10361 10362 10363 10364 10365 10366 10367 10368 10369 10370 10371 10372 10373 10374 
 	10375 10376 10377 10378 10379 10380 10381 10382 10383 10384 10385 10386 10387 10388 10389 10390 10391 10392 10393 10394 10395 10396 10397 10398 10399 
-	10400 10423 10424 10425 10426 10427 10428 10429 10430 10431 10432 10433 10434 10435 10436 10437 10438 10439 10440 10441 10442
-	10443 10444 10445 10446 
-	10447 10448 10449 10450 10451 10452 10453 10454 10455 10456 10457 10458 10459 10460 10461 10462 10463 10464 10465 10466 10467 10468 10469 10470 10471 10472 
+	10400 
+	10423 10424 10425 10426 10427 10428 10429 10430 10431 10432 10433 10434 10435 10436 10437 10438 10439 10440 10441 1044210443 10444 10445 10446 10447 10448 10449 10450 
+	10451 10452 10453 10454 10455 10456 10457 10458 10459 10460 10461 10462 10463 10464 10465 10466 10467 10468 10469 10470 
+	10471 10472 
 	10473 10474 10475 10476 10477 10478 10479 10480 10481 10482 10483 10484 10485 10486 10487 10488 10489 10490 10491 10492 10493 10494 10495 10496 10497 10498 
 	10499 
 	#10500 10501 10502 10503 10504 10505 10506 10507 10508 10509 10510 10511 10512 10513 10514 10515 10516 10517 10518 10519 10520 10521 10522 10523 10524 

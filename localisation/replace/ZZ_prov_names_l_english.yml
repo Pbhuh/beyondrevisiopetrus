@@ -1,5 +1,9 @@
 ﻿l_english:
  #rename
+ PROV91:0 "Mons"
+ PROV_ADJ91:0 "Monsian"
+ PROV189:0 "Nancy"
+ PROV_ADJ189:0 "Nancian"
  PROV4392:0 "Auxerrois"
  PROV193:0 "Besançon"
  #Pieter Lowlands
