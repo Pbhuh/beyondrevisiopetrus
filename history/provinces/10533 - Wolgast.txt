@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Vorpommern
 
-owner = WLG
-controller = WLG
-add_core = WLG
+owner = POM
+controller = POM
+add_core = POM
 culture = pommeranian
 religion = catholic
 hre = yes
