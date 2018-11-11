@@ -7,6 +7,5 @@ ZUT = "countries/Zutphen.txt"
 FSK = "countries/Freikoln.txt"
 TEC = "countries/Tecklenburg.txt" 
 DOO = "countries/Doornik.txt"
-VBE = "countries/VlaamsBelgie.txt" #Need to rework this
 BOI = "countries/Bouillon.txt"
 NAM = "countries/Namur.txt"
