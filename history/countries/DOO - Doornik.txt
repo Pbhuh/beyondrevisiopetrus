@@ -4,7 +4,8 @@ government_rank = 1
 primary_culture = flemish
 religion = catholic
 technology_group = western
-capital = 3080
+capital = 10513 
+fixed_capital = 10513 
 
 1399.1.1 = {
 	monarch = {

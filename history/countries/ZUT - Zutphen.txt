@@ -4,4 +4,5 @@ government_rank = 1
 primary_culture = dutch
 religion = catholic
 technology_group = western
-capital = 3059	# Zutphen
+capital = 10506	# Zutphen
+fixed_capital = 10506
